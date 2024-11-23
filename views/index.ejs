@@ -12,10 +12,10 @@
         <!--Pokemon Logo-->
         <img src="../public/images/Pokelogo.png" class="d-block mx-auto mb-4" alt="Pokemon Logo">
         <!-- form -->
-        <form class="mb-4 d-flex flex-column align-items-center gap-3">
+        <form action="/search" class="mb-4 d-flex flex-column align-items-center gap-3">
             <div class="form-group w-50">
                 <label for="pokemonName" class="form-label"></label>
-                <input type="text" class="form-control" id="pokemonName" placeholder="Search by Pokémon Name, Number, or Type!">
+                <input type="text" class="form-control" id="pokemonName" name="userTyped" placeholder="Search by Pokémon Name, Number, or Type!">
             </div>
             <button type="submit" class="btn btn-primary w-50">Search</button>
         </form>
