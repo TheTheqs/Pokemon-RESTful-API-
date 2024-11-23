@@ -1,0 +1,9 @@
+Objectives:
+    1- Create a RESTful API to search for Pokémon using the public API "PokéAPI".
+    2- The main objective is to apply my knowledge about how to use external APIs and how to work with the data retrieved from them through RESTful API methods.
+    3- To achieve this goal, the following features will be implemented:
+        a- Home Page: Always displays a random Pokémon retrieved from the public API database.
+        b- Search Functionality: Users can search for Pokémon by Pokédex number, type, or name. Additionally, they can fetch a new random Pokémon.
+        c- Dynamic Pokédex: Users can create a personal Pokédex by saving Pokémon, retrieving them later, or deleting saved entries.
+        d- Data Volatility: The saved Pokémon will not persist and will be lost upon refreshing the page.
+    4- The following tools will be used: Node.js, Nodemon, Express, Axios, BodyParser, and Bootstrap. Additionally, the public API "PokéAPI" will serve as the primary data source.
